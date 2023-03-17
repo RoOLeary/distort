@@ -35,14 +35,7 @@ export default function Navbar() {
                 </Link>
                 <Link href="/">
                   <a className="hidden lg:block h-9">
-                    <Image 
-                      src={siteConfig.logo} 
-                      alt={siteConfig.logoText}
-                      width={129.6}
-                      height={36}
-                      layout="fixed"
-                      className="w-auto h-9"
-                    />
+                  Busy Little Pixels:Media
                   </a>
                 </Link>
               </div>

@@ -25,3 +25,9 @@
 .lazy.loaded {
   @apply opacity-100;
 }
+
+.testGrid{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

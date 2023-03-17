@@ -9,6 +9,8 @@ import SidebarInstagramFeed from '../components/sidebar/SidebarInstagramFeed'
 import SidebarAd from '../components/sidebar/SidebarAd'
 import Topics from '../components/home/Topics'
 import BannerArticle from '../components/shared/BannerArticle'
+import TestimonialSlider from '../components/shared/TestimonialSlider'
+
 import Newsletter from '../components/shared/Newsletter'
 import { getArchivedPosts, getFeaturedPosts, getPopularPosts } from '../libs/getPosts'
 import { getAuthors } from '../libs/getAuthors'
@@ -16,6 +18,22 @@ import { getCategories } from '../libs/getCategories'
 import { getTags } from '../libs/getTags'
 import { getInstagramFeed } from '../libs/getInstagramFeed'
 import { getContentPage } from '../libs/getContentPage'
+
+const testimonials = [
+  {
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    author: "John Doe",
+  },
+  {
+    quote: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    author: "Jane Smith",
+  },
+  {
+    quote:"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Bob Johnson",
+  },
+];
+
 
 export default function Home({
   authors, 
@@ -27,6 +45,8 @@ export default function Home({
   instagramFeed, 
   newsletter
 }) {
+
+
   return (
     <Layout>
       <FeaturedArticles featuredPosts={featuredPosts.slice(0,7)} authors={authors} />
@@ -68,7 +88,9 @@ export default function Home({
         </div>
       </section>
 
+      
       <Newsletter newsletter={newsletter} />
+      <TestimonialSlider testimonials={testimonials} />
     </Layout>
   )
 }
