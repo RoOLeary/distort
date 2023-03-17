@@ -40,7 +40,7 @@ const jobs = [
     category: 'Tech, Finance',
     location: "Amsterdam",
     type: "full-time",
-    title: 'Wanker'
+    title: 'Writer'
   },
   {
     category: 'Tech',
