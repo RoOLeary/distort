@@ -41,7 +41,8 @@ const TestimonialSlider = ({ testimonials }) => {
                 
                 <div className="testGrid">
 
-                    <span className="-mt-8">{indicatorSlide} / {testimonials.length}</span>
+                   
+                <span className="-mt-8 font-black">{indicatorSlide} / {testimonials.length}</span>
                     
                   {testimonials.map((testimonial, index) => (
                     

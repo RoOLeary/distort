@@ -10,6 +10,7 @@ import SidebarAd from '../components/sidebar/SidebarAd'
 import Topics from '../components/home/Topics'
 import BannerArticle from '../components/shared/BannerArticle'
 import TestimonialSlider from '../components/shared/TestimonialSlider'
+import JobSearchFilter from '../components/shared/JobSearchFilter'
 
 import Newsletter from '../components/shared/Newsletter'
 import { getArchivedPosts, getFeaturedPosts, getPopularPosts } from '../libs/getPosts'
@@ -22,16 +23,80 @@ import { getContentPage } from '../libs/getContentPage'
 const testimonials = [
   {
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    author: "John Doe",
+    author: "Valentina Nappi",
   },
   {
     quote: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    author: "Jane Smith",
+    author: "Mia Malkova",
   },
   {
     quote:"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    author: "Bob Johnson",
+    author: "Mia Khalifa",
   },
+];
+
+const jobs = [
+  {
+    category: 'Tech, Finance',
+    location: "Amsterdam",
+    type: "full-time",
+    title: 'Wanker'
+  },
+  {
+    category: 'Tech',
+    location: "Utrect",
+    type: "part-time",
+    title: 'Bellend'
+  },
+  {
+    category: 'Operational',
+    location: "Utrect",
+    type: "part-time",
+    title: 'Shopper'
+  },
+  {
+    category: 'Operational',
+    location: "Amsterdam",
+    type: "part-time",
+    title: 'Shopper'
+  },
+  {
+    category: 'Operational',
+    location: "Utrect",
+    type: "part-time",
+    title: 'Runner'
+  },
+  {
+    category: 'Operational',
+    location: "Utrect",
+    type: "part-time",
+    title: 'Trucker'
+  },
+  {
+    category: 'Finance',
+    location: "Rotterdam",
+    type: "full-time",
+    title: 'Accountant'
+  },
+  {
+    category: 'Marketing',
+    location: "Rotterdam",
+    type: "full-time",
+    title: 'Marketer'
+  },
+  {
+    category: 'HR, Recruitment',
+    location: "Amsterdam",
+    type: "full-time",
+    title: 'Recruiter'
+  },
+  {
+    category: 'Finance',
+    location: "Rotterdam",
+    type: "part-time",
+    title: 'Accountant'
+  }
+
 ];
 
 
@@ -91,6 +156,7 @@ export default function Home({
       
       <Newsletter newsletter={newsletter} />
       <TestimonialSlider testimonials={testimonials} />
+      <JobSearchFilter jobs={jobs} />
     </Layout>
   )
 }

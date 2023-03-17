@@ -16,18 +16,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex items-center justify-center">
             <Link href="/">
-              <a className="block h-10">
-                <Image 
-                  src={siteConfig.logo} 
-                  alt={siteConfig.logoText}
-                  width={144}
-                  height={40}
-                  layout="fixed"
-                  placeholder="blur"
-                  blurDataURL={siteConfig.logo}
-                  className="w-auto h-10"
-                />
-              </a>
+             BLP:media
             </Link>
           </div>
 

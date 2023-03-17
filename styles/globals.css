@@ -31,3 +31,11 @@
   justify-content: center;
   align-content: center;
 }
+
+.jobCard{
+  @apply py-4 px-3 bg-gray-200 mb-2 rounded-sm
+}
+.jobnCard.title{
+    font-size: 20px;
+    font-weight: bold;
+}
