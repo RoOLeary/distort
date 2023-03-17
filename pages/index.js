@@ -23,15 +23,15 @@ import { getContentPage } from '../libs/getContentPage'
 const testimonials = [
   {
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    author: "Valentina Nappi",
+    author: "Jurgen Klopp",
   },
   {
     quote: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    author: "Mia Malkova",
+    author: "Mo Salah",
   },
   {
     quote:"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    author: "Mia Khalifa",
+    author: "Virgil Van Dijk",
   },
 ];
 
