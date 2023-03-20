@@ -85,6 +85,18 @@ const jobs = [
     title: 'Marketer'
   },
   {
+    category: 'Marketing',
+    location: "Rotterdam",
+    type: "contract",
+    title: 'Marketer'
+  },
+  {
+    category: 'Marketing',
+    location: "Weesp",
+    type: "contract",
+    title: 'Performance Marketer'
+  },
+  {
     category: 'HR, Recruitment',
     location: "Amsterdam",
     type: "full-time",
