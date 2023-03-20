@@ -3,12 +3,17 @@ import JobCard from "./JobCard";
 
 const JobSearchFilter = ({ jobs }) => {
 
+  const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");
   const [location, setLocation] = useState("");
   const [type, setType] = useState("");
 
   const handleCategoryChange = (event) => {
     setCategory(event.target.value);
+  };
+
+  const handleTitleChange = (event) => {
+    setTitle(event.target.value);
   };
 
   const handleLocationChange = (event) => {
@@ -20,6 +25,7 @@ const JobSearchFilter = ({ jobs }) => {
   };
 
   const clearFilters = (event) => {
+    setTitle('');
     setCategory('');
     setLocation('')
     setType('');
@@ -31,7 +37,8 @@ const JobSearchFilter = ({ jobs }) => {
     const categoryMatch = job.category.toLowerCase().includes(category.toLowerCase());
     const locationMatch = job.location.toLowerCase().includes(location.toLowerCase());
     const typeMatch = job.type.toLowerCase().includes(type.toLowerCase());
-    return categoryMatch && locationMatch && typeMatch;
+    const textMatch = job.title.toLowerCase().includes(title.toLowerCase());
+    return categoryMatch && locationMatch && typeMatch && textMatch;
   });
 
   const plural = filteredJobs.length < 1;
@@ -54,6 +61,20 @@ const JobSearchFilter = ({ jobs }) => {
               className="w-full px-3 py-2 border border-gray-300 rounded-md"
               value={category}
               onChange={handleCategoryChange}
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="location" className="block text-gray-700 font-bold mb-2">
+              Enter Job title
+            </label>
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Enter Job Title"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              value={title}
+              onChange={handleTitleChange}
             />
           </div>
           <div className="mb-4">
