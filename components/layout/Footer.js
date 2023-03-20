@@ -15,7 +15,7 @@ export default function Footer() {
         
           {/* Logo */}
           <div className="flex items-center justify-center">
-            <Link href="/">
+            <Link href="https://busylittlepixels.com">
              BLP:media
             </Link>
           </div>
@@ -57,7 +57,9 @@ export default function Footer() {
 
           {/* Copyright Text */}
           <p className="flex items-center justify-center mt-8 ml-0 text-base text-gray-400 md:ml-6 shrink-0 md:mt-0">
+          <Link href="https://busylittlepixels.com">
             {siteConfig.copyright}
+          </Link>
           </p>
         </div>
       </div>

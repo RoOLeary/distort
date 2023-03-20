@@ -1,8 +1,3 @@
-# Banter Next.js
-A modern multipurpose blog theme built with Tailwind CSS & Next.js
-
-This is a [Next.js](https://nextjs.org/) template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). If you're new to Next.js I recommend you check out the [official Next.js documentation](https://nextjs.org/docs) first.
-
 ## System Requirements
 * [Node.js 12.22.0](https://nodejs.org/) or later
 * MacOS, Windows (including WSL), and Linux are supported
@@ -57,18 +52,18 @@ The `config/site.config.js` file contains default site data used across the site
 ```javascript
 export default {
   "metaData": {
-    "title" : "Banter | Multipurpose NextJS Blog Template",
-    "description" : "Banter - a modern, stylish Tailwind CSS template for any blog, magazine, or news site.",
-    "author" : "Tailwind Awesome",
-    "keyword" : "magazine, multipurpose, react, nextjs, blog, template",
+    "title" : "BLP Media | NextJS /Craft Media Template",
+    "description" : "BLP Media - a modern, stylish magazine, or news site.",
+    "author" : "Ro O'Leary",
+    "keyword" : "magazine, react, nextjs, tech blog",
     "ogImage" : "/images/ogimage.jpg"
   },
-  "baseURL" : "https://banter.tailwindawesome.com/",
+  "baseURL" : "https://blpmedia.vercel.app/",
   "logo" : "/images/banter-logo.png",
-  "logoText" : "Banter",
+  "logoText" : "BLP Media",
   "favicon" : "/images/banter-icon-logo.png",
-  "postPerPage" : 6,
-  "copyright" : "© 2023 Banter. All rights reserved."
+  "postPerPage" : 8,
+  "copyright" : "© 2023 Busy Little Pixels. All rights reserved."
 }
 ```
 
