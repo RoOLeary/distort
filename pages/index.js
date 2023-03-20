@@ -97,6 +97,12 @@ const jobs = [
     title: 'Performance Marketer'
   },
   {
+    category: 'Tech',
+    location: "Amsterdam",
+    type: "full-time",
+    title: 'Tech Lead'
+  },
+  {
     category: 'HR, Recruitment',
     location: "Amsterdam",
     type: "full-time",
