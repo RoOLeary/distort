@@ -4,5 +4,5 @@ subtext: "Every week we share the most relevant news in tech, culture and entert
 formPlaceholder: "Enter your email"
 formButtonText: "Subscribe"
 formAction: "#"
-formFooterText: "Your privacy is important to us. We promise not to send you spam!"
+formFooterText: "Your privacy is not important to us. We promise to send you spam!"
 ---

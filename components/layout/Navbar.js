@@ -141,7 +141,7 @@ export default function Navbar() {
                 )}
               </div>
 
-              <div className="pt-4 pb-3 border-t border-gray-300/70">
+              {/* <div className="pt-4 pb-3 border-t border-gray-300/70">
                 <div className="px-6 mt-2 text-xs font-medium tracking-widest text-gray-500 uppercase">Pages</div>
                 <div className="px-2 mt-3 space-y-1">
 
@@ -163,7 +163,7 @@ export default function Navbar() {
                   )}
                   
                 </div>
-              </div>
+              </div> */}
             </nav>
           </Disclosure.Panel> 
         </>
