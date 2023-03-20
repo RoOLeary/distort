@@ -5,6 +5,7 @@ const JobSearchFilter = ({ jobs }) => {
 
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");
+  const [country, setCountry] = useState("");
   const [location, setLocation] = useState("");
   const [type, setType] = useState("");
 
@@ -24,10 +25,17 @@ const JobSearchFilter = ({ jobs }) => {
     setType(event.target.value);
   };
 
+
+  const handleCheckBoxChange = (event) => {
+    console.log(event);
+    setCountry(event);
+  }
+
   const clearFilters = (event) => {
     setTitle('');
     setCategory('');
     setLocation('')
+    setCountry('');
     setType('');
   }
 
@@ -38,7 +46,8 @@ const JobSearchFilter = ({ jobs }) => {
     const locationMatch = job.location.toLowerCase().includes(location.toLowerCase());
     const typeMatch = job.type.toLowerCase().includes(type.toLowerCase());
     const textMatch = job.title.toLowerCase().includes(title.toLowerCase());
-    return categoryMatch && locationMatch && typeMatch && textMatch;
+    const countryMatch = job.country.toLowerCase().includes(country.toLowerCase());
+    return categoryMatch && locationMatch && typeMatch && textMatch && countryMatch;
   });
 
   const plural = filteredJobs.length < 1;
@@ -98,7 +107,7 @@ const JobSearchFilter = ({ jobs }) => {
             <select
               name="type"
               id="type"
-              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md mb-4"
               value={type}
               onChange={handleTypeChange}
             >
@@ -109,6 +118,27 @@ const JobSearchFilter = ({ jobs }) => {
               <option value="internship">Internship</option>
             </select>
 
+            <div className="space-y-4">
+
+              <label htmlFor="country[]" className="block text-gray-700 font-bold mb-2">
+                Country
+              </label>
+              
+              <div className="flex items-center">
+                <input id="filter-color-0" name="country[]" value="nl" type="checkbox" className="h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-500" onChange={(e) => handleCheckBoxChange(e.target.value)} />
+                <label htmlFor="filter-color-0" className="ml-3 text-sm text-gray-600">The Netherlands</label>
+              </div>
+
+              <div className="flex items-center">
+                <input id="filter-color-1" name="country[]" value="de" type="checkbox" className="h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-500" onChange={(e) => handleCheckBoxChange(e.target.value)} />
+                <label htmlFor="filter-color-1" className="ml-3 text-sm text-gray-600">Germany</label>
+              </div>
+
+              <div className="flex items-center">
+                <input id="filter-color-2" name="country[]" value="fr" type="checkbox" className="h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-500"  onChange={(e) => handleCheckBoxChange(e.target.value)} />
+                <label htmlFor="filter-color-2" className="ml-3 text-sm text-gray-600">France</label>
+              </div>          
+          </div>
         
             <button className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700 pointer-events-auto mt-8" onClick={clearFilters}>Reset</button>
           </div>

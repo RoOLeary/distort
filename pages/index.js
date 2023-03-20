@@ -40,103 +40,148 @@ const jobs = [
     category: 'Tech, Finance',
     location: "Amsterdam",
     type: "full-time",
-    title: 'Writer'
+    title: 'Writer',
+    country: 'nl'
   },
   {
     category: 'Tech',
     location: "Utrect",
     type: "part-time",
-    title: 'Developer'
+    title: 'Developer',
+    country: 'nl'
   },
   {
     category: 'Operational',
     location: "Utrect",
     type: "part-time",
-    title: 'Shopper'
+    title: 'Shopper',
+    country: 'nl'
   },
   {
     category: 'Operational',
     location: "Amsterdam",
     type: "part-time",
-    title: 'Shopper'
+    title: 'Shopper',
+    country: 'nl'
   },
   {
     category: 'Operational',
     location: "Utrect",
     type: "part-time",
-    title: 'Runner'
+    title: 'Runner',
+    country: 'nl'
   },
   {
     category: 'Operational',
     location: "Utrect",
     type: "part-time",
-    title: 'Trucker'
+    title: 'Trucker',
+    country: 'nl'
   },
   {
     category: 'Finance',
     location: "Rotterdam",
     type: "full-time",
-    title: 'Accountant'
+    title: 'Accountant',
+    country: 'nl'
   },
   {
     category: 'Marketing',
     location: "Rotterdam",
     type: "full-time",
-    title: 'Marketer'
+    title: 'Marketer',
+    country: 'nl'
   },
   {
     category: 'Marketing',
     location: "Rotterdam",
     type: "contract",
-    title: 'Marketer'
+    title: 'Marketer',
+    country: 'nl'
   },
   {
     category: 'Marketing',
     location: "Weesp",
     type: "contract",
-    title: 'Performance Marketer'
+    title: 'Performance Marketer',
+    country: 'nl'
   },
   {
     category: 'Tech',
     location: "Amsterdam",
     type: "full-time",
-    title: 'Tech Lead'
+    title: 'Tech Lead',
+    country: 'nl'
   },
   {
     category: 'HR, Recruitment',
     location: "Amsterdam",
     type: "full-time",
-    title: 'Recruiter'
+    title: 'Recruiter',
+    country: 'nl'
   },
   {
     category: 'Finance',
     location: "Rotterdam",
     type: "part-time",
-    title: 'Accountant'
+    title: 'Accountant',
+    country: 'nl'
   },
   {
     category: 'Tech',
     location: "Amsterdam",
     type: "internship",
-    title: 'Developer Intern'
+    title: 'Developer Intern',
+    country: 'nl'
   },
   {
     category: 'Finance',
     location: "Amsterdam",
     type: "contract",
-    title: 'Freelance Accountant'
+    title: 'Freelance Accountant',
+    country: 'nl'
   },
   {
     category: 'Design',
     location: "Amsterdam",
     type: "contract",
-    title: 'Freelance Designer'
+    title: 'Freelance Designer',
+    country: 'nl'
   },
   {
     category: 'Tech',
-    location: "Rotterdam",
+    location: "Berlin",
     type: "contract",
-    title: 'Freelance Senior Engineer'
+    title: 'Freelance Senior Engineer',
+    country: 'de'
+  },
+  {
+    category: 'Operational',
+    location: "Hamburg",
+    type: "part-time",
+    title: 'Runner',
+    country: 'de'
+  },
+  {
+    category: 'Operational',
+    location: "Lille",
+    type: "part-time",
+    title: 'Runnner',
+    country: 'fr'
+  },
+  {
+    category: 'Operational',
+    location: "Paris",
+    type: "full-time",
+    title: 'Shoper',
+    country: 'fr'
+  },
+  {
+    category: 'Operational',
+    location: "Bordeaux",
+    type: "part-time",
+    title: 'Shopper',
+    country: 'fr'
   }
 
 ];

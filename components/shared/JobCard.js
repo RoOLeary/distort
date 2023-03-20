@@ -1,6 +1,6 @@
 const JobCard = ({ job }) => {
 
-    console.log(job.category);
+    // console.log(job.category);
     
     return(
         <div className="jobCard">
