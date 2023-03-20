@@ -1,9 +1,9 @@
 export default {
   "metaData": {
-    "title" : "BLP Media",
-    "description" : "BLP Media - prototype news site - Craft/Next.",
-    "author" : "Ronan O'Leary",
-    "keyword" : "magazine, react, nextjs, media",
+    "title" : "Busy Little Pixels Blog",
+    "description" : "Busy Little Pixels Media - prototype news site - Craft/Next.",
+    "author" : "Ro O'Leary",
+    "keyword" : "magazine, react, nextjs, media, computers and shit",
     "ogImage" : "/images/ogimage.jpg"
   },
   "baseURL" : "https://busylittlepixels.com/",
@@ -11,5 +11,5 @@ export default {
   "logoText" : "BLP",
   "favicon" : "/images/banter-icon-logo.png",
   "postPerPage" : 6,
-  "copyright" : "© 2023 BLP. All rights reserved."
+  "copyright" : "© 2023 busylittlepixels. All rights reserved."
 }
