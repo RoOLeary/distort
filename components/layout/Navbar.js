@@ -7,6 +7,10 @@ import { Fragment } from 'react'
 import { Disclosure, Menu } from '@headlessui/react'
 import { ChevronDownIcon, SearchIcon } from '@heroicons/react/solid'
 
+
+
+// If loading a variable font, you don't need t
+
 export default function Navbar() {
   const router = useRouter();
 
@@ -34,8 +38,8 @@ export default function Navbar() {
                   </a>
                 </Link>
                 <Link href="/">
-                  <a className="hidden lg:block h-9">
-                  Busy Little Pixels:Media
+                  <a className="hidden lg:block h-9 font-black inter text-2xl">
+                  busy<span style={{ color: 'red', fontWeight: 'bold'}}>little</span>pixels:blog
                   </a>
                 </Link>
               </div>

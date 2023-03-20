@@ -1,9 +1,10 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+
+function BLPMedia({ Component, pageProps }) {
   return (
     <Component {...pageProps} />
   )
 }
 
-export default MyApp
+export default BLPMedia
