@@ -3,7 +3,7 @@ title: "Why We Die Without Sleep"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-12.jpeg"
 date: "2023-03-10T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 10
 views: 563
 category: "Science"

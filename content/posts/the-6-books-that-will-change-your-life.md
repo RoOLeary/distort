@@ -3,7 +3,7 @@ title: "6 Books That Will Change Your Life"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/featured-10.jpeg"
 date: "2023-03-31T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 9
 views: 9656
 category: "Culture"

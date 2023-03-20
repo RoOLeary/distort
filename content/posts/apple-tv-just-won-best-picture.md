@@ -3,7 +3,7 @@ title: "Apple TV+ Just Won Best Picture"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-31.jpeg"
 date: "2023-03-28T16:56:47+06:00"
-author: "Karina Bell"
+author: "Karina Bell-Ende"
 time_to_read_in_minutes: 4
 views: 5483
 category: "Entertainment"

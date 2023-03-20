@@ -3,7 +3,7 @@ title: "64% of Amercians Now Live Paycheck to Paycheck"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-18.jpeg"
 date: "2023-04-06T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 5
 views: 8078
 category: "Startup"

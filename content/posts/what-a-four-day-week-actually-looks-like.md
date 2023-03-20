@@ -3,7 +3,7 @@ title: "What a Four Day Week Actually Looks Like"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-49.jpeg"
 date: "2023-04-25T16:56:47+06:00"
-author: "Karina Bell"
+author: "Karina Bell-Ende"
 time_to_read_in_minutes: 8
 views: 103
 category: "Culture"

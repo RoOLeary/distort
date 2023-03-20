@@ -13,9 +13,9 @@ export default function FeaturedArticles({authors, posts}) {
             {/* Image */}
             <Link href={`/posts/${post.slug}`}>
               <a className="order-2 w-full sm:w-2/5 lg:w-24 xl:w-1/3 lg:order-1">
-                <div className="relative z-10 overflow-hidden bg-gray-100 rounded-2xl aspect-w-16 aspect-h-9 lg:aspect-w-1 lg:aspect-h-1 group">
+                <div className="relative z-10 overflow-hidden bg-gray-100 aspect-w-16 aspect-h-9 lg:aspect-w-1 lg:aspect-h-1 group">
                   <Image 
-                    className="object-cover object-center transition duration-300 ease-in-out rounded-2xl group-hover:scale-110" 
+                    className="object-cover object-center transition duration-300 ease-in-out group-hover:scale-110" 
                     src={post.frontmatter.image} 
                     alt={post.frontmatter.title}
                     layout="fill"
@@ -46,13 +46,13 @@ export default function FeaturedArticles({authors, posts}) {
                 {/* Author meta */}
                 <div className="flex items-center justify-center">
                   <Link href={`/authors/${post.frontmatter.author.replace(/ /g, '-').toLowerCase()}`}>
-                    <a className="relative w-6 h-6 mr-3 bg-gray-100 rounded-lg lg:hidden">
+                    <a className="relative w-6 h-6 mr-3 bg-gray-100 lg:hidden">
                       
                       {authors.map((author, i) =>
                         post.frontmatter.author === author.frontmatter.name && (
                           <Image
                             key={i} 
-                            className="flex-shrink-0 object-cover object-center rounded-lg" 
+                            className="flex-shrink-0 object-cover object-center" 
                             src={author.frontmatter.image} 
                             alt={author.frontmatter.name}
                             layout="fill"

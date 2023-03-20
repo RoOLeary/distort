@@ -1,5 +1,5 @@
 ---
-name: "Matt Burgess"
+name: "George Burgess"
 image: "https://placedog.net/96/96"
 role: "Staff Writer"
 social_links:

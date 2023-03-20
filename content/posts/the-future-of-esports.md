@@ -3,7 +3,7 @@ title: "5 Predictions for the Future of Esports"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-39.jpeg"
 date: "2021-12-11T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 11
 views: 6726
 category: "Entertainment"

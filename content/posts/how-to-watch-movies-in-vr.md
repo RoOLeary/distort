@@ -3,7 +3,7 @@ title: "How to Set Up a Virtual Reality Cinema"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-36.jpeg"
 date: "2023-02-26T16:56:47+06:00"
-author: "Karina Bell"
+author: "Karina Bell-Ende"
 time_to_read_in_minutes: 7
 views: 4570
 category: "Entertainment"

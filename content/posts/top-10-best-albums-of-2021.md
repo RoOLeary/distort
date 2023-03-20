@@ -3,7 +3,7 @@ title: "Top 10 Albums of 2021"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-29.jpeg"
 date: "2023-01-10T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 5
 views: 4119
 category: "Entertainment"

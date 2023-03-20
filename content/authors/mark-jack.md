@@ -1,5 +1,5 @@
 ---
-name: "Mark Jack"
+name: "Isabel Vaz"
 image: "https://placedog.net/96/96/r"
 role: "Staff Writer"
 social_links:

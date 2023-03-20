@@ -3,7 +3,7 @@ title: "Can You Hack Productivity With Pills?"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-45.jpeg"
 date: "2023-01-19T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 11
 views: 4449
 category: "Productivity"

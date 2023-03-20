@@ -3,7 +3,7 @@ title: "Crocs Are Back in Style: Here's Why"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-51.jpeg"
 date: "2023-02-10T16:56:47+06:00"
-author: "Amit Katwala"
+author: "Ernie Catwalker"
 time_to_read_in_minutes: 5
 views: 2507
 category: "Culture"

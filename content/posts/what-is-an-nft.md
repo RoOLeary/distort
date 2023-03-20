@@ -3,7 +3,7 @@ title: "What the Hell is an NFT?"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-19.jpeg"
 date: "2023-02-23T16:56:47+06:00"
-author: "Karina Bell"
+author: "Karina Bell-Ende"
 time_to_read_in_minutes: 7
 views: 8612
 category: "Technology"

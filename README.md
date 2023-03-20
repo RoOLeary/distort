@@ -103,13 +103,13 @@ All of the content data is in markdown format. If you are not familiar with mark
 All of the markdown files are located in the `content` directory. Banter uses [`gray-matter`](https://github.com/jonschlinkert/gray-matter) to parse our YAML front matter and markdown content. All of the frontmatter data for each content file is located at the top of the file in between 3 hyphens. Below the frontmatter is the markdown content. 
 
 ### Adding new authors
-You can add new or customize existing authors in the `content/authors` directory. Each author's file name is the slug for that particular author's page. For example, the author Mark Jack has a corresponding markdown file named `mark-jack.md` and an author page at `/authors/mark-jack`.
+You can add new or customize existing authors in the `content/authors` directory. Each author's file name is the slug for that particular author's page. For example, the author Isabel Vaz has a corresponding markdown file named `mark-jack.md` and an author page at `/authors/mark-jack`.
 
 Every author has data in the following format:
 
 ```markdown
 ---
-name: "Mark Jack"
+name: "Isabel Vaz"
 image: "/images/authors/mark-jack.jpeg"
 role: "Staff Writer"
 social_links:
@@ -139,7 +139,7 @@ title: "15 Ways to Grow Your Startup"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-02.jpeg"
 date: "2023-04-05T16:56:47+06:00"
-author: "Matt Burgess"
+author: "George Burgess"
 time_to_read_in_minutes: 12
 views: 6807
 category: "Startup"
