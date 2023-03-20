@@ -12,7 +12,6 @@ export default function Footer() {
 
         {/* Logo & Social Links */}
         <div className="sm:flex sm:justify-between sm:items-center">
-        
           {/* Logo */}
           <div className="flex items-center justify-center">
             <Link href="/">
