@@ -19,7 +19,7 @@ export default function TagPage({
   popularPosts
 }) {
   return (
-    <Layout metaTitle={`Showing posts with tag: ${tag}`}>
+    <Layout metaTitle={`Posts with tag: ${tag}`}>
       <TagHeader tag={tag} />
 
       {/* Feed with Sidebar */}

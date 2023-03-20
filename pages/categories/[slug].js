@@ -24,7 +24,7 @@ export default function CategoryPage({
   popularPosts
 }) {
   return (
-    <Layout metaTitle={`Showing posts in ${category.name}`}>
+    <Layout metaTitle={`Posts in ${category.name}`}>
       <CategoryHeader category={category} />
 
       {/* Feed with Sidebar */}

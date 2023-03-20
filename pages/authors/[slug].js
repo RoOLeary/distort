@@ -23,7 +23,7 @@ export default function AuthorPage({
   popularPosts
 }) {
   return (
-    <Layout metaTitle={`Showing posts written by ${author.frontmatter.name}`}>
+    <Layout metaTitle={`Posts by ${author.frontmatter.name}`}>
       <AuthorHeader author={author} />
 
       {/* Feed with Sidebar */}
