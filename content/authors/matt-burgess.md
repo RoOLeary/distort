@@ -1,5 +1,5 @@
 ---
-name: "George Burgess"
+name: "Eliot Rosewater"
 image: "https://placedog.net/96/96"
 role: "Staff Writer"
 social_links:
