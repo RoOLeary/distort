@@ -95,6 +95,30 @@ const jobs = [
     location: "Rotterdam",
     type: "part-time",
     title: 'Accountant'
+  },
+  {
+    category: 'Tech',
+    location: "Amsterdam",
+    type: "internship",
+    title: 'Developer Intern'
+  },
+  {
+    category: 'Finance',
+    location: "Amsterdam",
+    type: "contract",
+    title: 'Freelance Accountant'
+  },
+  {
+    category: 'Design',
+    location: "Amsterdam",
+    type: "contract",
+    title: 'Freelance Designer'
+  },
+  {
+    category: 'Tech',
+    location: "Rotterdam",
+    type: "contract",
+    title: 'Freelance Senior Engineer'
   }
 
 ];
