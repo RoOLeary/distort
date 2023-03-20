@@ -6,7 +6,7 @@ date: "2023-04-18T16:56:47+06:00"
 author: "Taylor Adams"
 time_to_read_in_minutes: 8
 views: 4922
-category: "Startup"
+category: "Startups"
 tags: ["Supply Chain", "Economy", "Business", "Consumer"]
 group: "Featured"
 ---

@@ -5,8 +5,8 @@ export default {
       "link": "/categories/technology"
     },
     {
-      "name": "Startup",
-      "link": "/categories/startup"
+      "name": "Startups",
+      "link": "/categories/startups"
     },
     {
       "name": "Science",

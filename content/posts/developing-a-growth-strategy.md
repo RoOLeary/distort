@@ -6,7 +6,7 @@ date: "2023-04-16T16:56:47+06:00"
 author: "Veronica Mars"
 time_to_read_in_minutes: 12
 views: 4025
-category: "Startup"
+category: "Startups"
 tags: ["Growth", "Tips", "Strategy", "Idea"]
 group: "Archived"
 ---
