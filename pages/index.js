@@ -166,14 +166,14 @@ const jobs = [
     category: 'Operational',
     location: "Lille",
     type: "part-time",
-    title: 'Runnner',
+    title: 'Runner',
     country: 'fr'
   },
   {
     category: 'Operational',
     location: "Paris",
     type: "full-time",
-    title: 'Shoper',
+    title: 'Shopper',
     country: 'fr'
   },
   {
