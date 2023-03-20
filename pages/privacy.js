@@ -25,7 +25,7 @@ export default function About({privacy, newsletter, instagramFeed, popularPosts}
           <div className="lg:w-2/3">
 
             {/* Uses the official Tailwind CSS Typography plugin */}
-            <div className="px-5 sm:px-6 md:px-8 lg:px-0 mx-auto lg:mx-0 prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition prose-img:rounded-xl first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em]" dangerouslySetInnerHTML={{ __html: marked.parse(privacy.content) }}></div>
+            <div className="px-5 sm:px-6 md:px-8 lg:px-0 mx-auto lg:mx-0 prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition  first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em]" dangerouslySetInnerHTML={{ __html: marked.parse(privacy.content) }}></div>
 
           </div>
 

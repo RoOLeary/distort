@@ -87,7 +87,7 @@ export default function Post({post, postContent, authors}) {
         
         {/* Post Content */}
         {/* Uses the official Tailwind CSS Typography plugin */}
-        <div className="mx-auto prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition prose-img:rounded-xl first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em]" dangerouslySetInnerHTML={{ __html: marked.parse(postContent) }}>
+        <div className="mx-auto prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition  first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em]" dangerouslySetInnerHTML={{ __html: marked.parse(postContent) }}>
         </div>
 
         {/* Post Footer */}
