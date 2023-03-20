@@ -45,12 +45,12 @@ export default function FeaturedArticles({authors, featuredPosts}) {
             {/* Author */}
             <div className="flex items-center mt-4 sm:mt-8">
               <Link href={`/authors/${featuredPosts[0].frontmatter.author.replace(/ /g, '-').toLowerCase()}`}>
-                <a className="relative w-10 h-10 bg-gray-100 rounded-xl">
+                <a className="relative w-10 h-10 bg-gray-100">
                   {authors.map((author, i) =>
                     featuredPosts[0].frontmatter.author === author.frontmatter.name && (
                       <Image 
                         key={i}
-                        className="object-cover object-center w-full h-full transition duration-300 ease-in-out rounded-xl" 
+                        className="object-cover object-center w-full h-full transition duration-300 ease-in-out" 
                         src={author.frontmatter.image} 
                         alt={author.frontmatter.name}
                         layout="fill"
@@ -124,12 +124,12 @@ export default function FeaturedArticles({authors, featuredPosts}) {
                     {/* Author meta */}
                     <div className="flex items-center justify-center">
                       <Link href={`/authors/${post.frontmatter.author.replace(/ /g, '-').toLowerCase()}`}>
-                        <a className="relative w-6 h-6 mr-3 bg-gray-100 rounded-lg">
+                        <a className="relative w-6 h-6 mr-3 bg-gray-100">
                           {authors.map((author, i) =>
                             post.frontmatter.author === author.frontmatter.name && (
                               <Image 
                                 key={i}
-                                className="flex-shrink-0 object-cover object-center w-6 h-6 transition duration-300 ease-in-out rounded-lg" 
+                                className="flex-shrink-0 object-cover object-center w-6 h-6 transition duration-300 ease-in-out" 
                                 src={author.frontmatter.image} 
                                 alt={author.frontmatter.name}
                                 layout="fill"

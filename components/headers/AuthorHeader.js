@@ -14,14 +14,14 @@ export default function AuthorHeader({author}) {
             
             {/* Image */}
             <div className="flex-shrink-0">
-              <div className="relative w-24 h-24 bg-gray-100 rounded-xl">
+              <div className="relative w-24 h-24 bg-gray-100">
                 <Image 
-                  className="object-cover object-center rounded-2xl" 
+                  className="object-cover object-center" 
                   src={author.frontmatter.image} 
                   alt={author.frontmatter.name}
                   layout="fill"
                 />
-                <span className="absolute inset-0 shadow-inner rounded-xl" aria-hidden="true" />
+                <span className="absolute inset-0 shadow-inner" aria-hidden="true" />
               </div>
             </div>
             

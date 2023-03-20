@@ -174,9 +174,9 @@ export default function Post({post, postContent, authors}) {
                   
                     {/* Image */}
                     <div className="flex-shrink-0">
-                      <div className="relative w-20 h-20 bg-gray-100 rounded-2xl sm:w-24 sm:h-24">
+                      <div className="relative w-20 h-20 bg-gray-100 sm:w-24 sm:h-24">
                         <Image 
-                          className="object-cover object-center rounded-2xl" 
+                          className="object-cover object-center" 
                           src={author.frontmatter.image} 
                           alt={author.frontmatter.name}
                           layout="fill"

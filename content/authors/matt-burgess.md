@@ -1,6 +1,6 @@
 ---
 name: "Matt Burgess"
-image: "/images/authors/matt-burgess.jpeg"
+image: "https://placedog.net/96/96"
 role: "Staff Writer"
 social_links:
   - name: "twitter"

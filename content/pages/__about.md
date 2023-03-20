@@ -3,7 +3,7 @@ title: "About"
 description: "This is a mock description for about page"
 header:
   heading:  "Illuminating today's stories on culture, business, and science through great journalism."
-  subheader: "About Banter"
+  subheader: "About Busy Little Pixels"
   image: "/images/about/about-header.jpeg"
 partner_section:
   heading: "Our Syndication Partners"

@@ -65,14 +65,14 @@ export default {
       "name": "Home",
       "link": "/"
     },
-    {
-      "name": "About us",
-      "link": "/about"
-    },
-    {
-      "name": "Contact us",
-      "link": "/contact"
-    },
+    // {
+    //   "name": "About us",
+    //   "link": "/about"
+    // },
+    // {
+    //   "name": "Contact us",
+    //   "link": "/contact"
+    // },
     {
       "name": "Privacy policy",
       "link": "/privacy"

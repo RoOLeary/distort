@@ -54,7 +54,7 @@ locations_info:
 mail_info:
   heading: "Send us mail"
   address:
-    name: "Banter Magazine"
+    name: "BLP Magazine"
     po_box: "PO Box 12345"
     city: "Wyoming"
     state: "MI"

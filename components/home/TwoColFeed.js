@@ -7,9 +7,9 @@ export default function TwoColFeed({posts, authors}) {
     <div className="col-span-2">
       
       {/* Advertisement Banner */}
-      <a href="#" className="relative block w-full max-w-xl px-4 mx-auto rounded-2xl sm:px-6 md:px-8 lg:px-0 md:max-w-3xl lg:max-w-none bg-gray-50">
+      <a href="#" className="relative block w-full max-w-xl px-4 mx-auto  sm:px-6 md:px-8 lg:px-0 md:max-w-3xl lg:max-w-none bg-gray-50">
         <Image 
-          className="object-cover w-full h-auto rounded-2xl" 
+          className="object-cover w-full h-auto " 
           src="/images/ads/banner.jpeg" 
           alt="Banner Ad"
           width={960}
@@ -39,7 +39,7 @@ export default function TwoColFeed({posts, authors}) {
             </div>
           
             {/* Content */}
-            <div className="box-border flex flex-col justify-between flex-1 w-full p-6 transition duration-300 ease-in-out bg-white border-b-2 border-l-2 border-r-2 border-gray-100 rounded-b-2xl xl:p-7 group-hover:border-transparent">
+            <div className="box-border flex flex-col justify-between flex-1 w-full p-6 transition duration-300 ease-in-out bg-white border-b-2 border-l-2 border-r-2 border-gray-100 xl:p-7 group-hover:border-transparent">
               <div>
 
                 <Link href={`/categories/${post.frontmatter.category.replace(/ /g, '-').toLowerCase()}`}>
@@ -69,12 +69,12 @@ export default function TwoColFeed({posts, authors}) {
               <div className="flex items-center mt-5 sm:mt-6">
 
                 <Link href={`/authors/${post.frontmatter.author.replace(/ /g, '-').toLowerCase()}`}>
-                  <a className="relative w-10 h-10 rounded-xl bg-gray-50">
+                  <a className="relative w-10 h-10  bg-gray-50">
                     {authors.map((author) =>
                       post.frontmatter.author === author.frontmatter.name && (
                         <Image 
                           key={author.frontmatter.name}
-                          className="object-cover object-center w-full h-full transition duration-300 ease-in-out rounded-xl" 
+                          className="object-cover object-center w-full h-full transition duration-300 ease-in-out " 
                           src={author.frontmatter.image} 
                           alt={author.frontmatter.name}
                           layout="fill"

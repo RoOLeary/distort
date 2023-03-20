@@ -1,6 +1,6 @@
 ---
 name: "Taylor Adams"
-image: "/images/authors/taylor-adams.jpeg"
+image: "https://placedog.net/96/96/r"
 role: "Staff Writer"
 social_links:
   - name: "twitter"
