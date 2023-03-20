@@ -41,14 +41,6 @@ export default {
           "link": "/tags/tips"
         },
         {
-          "name": "About us",
-          "link": "/about"
-        },
-        {
-          "name": "Contact us",
-          "link": "/contact"
-        },
-        {
           "name": "Privacy policy",
           "link": "/privacy"
         },
@@ -65,14 +57,6 @@ export default {
       "name": "Home",
       "link": "/"
     },
-    // {
-    //   "name": "About us",
-    //   "link": "/about"
-    // },
-    // {
-    //   "name": "Contact us",
-    //   "link": "/contact"
-    // },
     {
       "name": "Privacy policy",
       "link": "/privacy"
