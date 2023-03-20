@@ -4,10 +4,10 @@ export default function SidebarAd() {
   return (
     <div>
       {/* Portrait Ad */}
-      <a href="#" className="relative hidden w-full lg:block rounded-2xl bg-gray-50 lg:aspect-w-9 lg:aspect-h-16">
+      <a href="#" className="relative hidden w-full lg:block bg-gray-50 lg:aspect-w-9 lg:aspect-h-16">
         
         <Image 
-          className="hidden object-cover w-full h-full lg:block rounded-2xl" 
+          className="hidden object-cover w-full h-full lg:block" 
           src="/images/ads/fashion-ad-portrait.png"
           alt="Fashion ad portrait"
           layout="fill"
@@ -15,10 +15,10 @@ export default function SidebarAd() {
       </a>
 
       {/* Landscape Ad */}
-      <a href="#" className="relative w-full lg:hidden rounded-2xl bg-gray-50">
+      <a href="#" className="relative w-full lg:hidden bg-gray-50">
         
         <Image 
-          className="w-full h-auto rounded-2xl" 
+          className="w-full h-auto" 
           src="/images/ads/fashion-ad-landscape.png"
           alt="Fashion landscape ad"
           width={960}

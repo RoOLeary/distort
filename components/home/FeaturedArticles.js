@@ -12,9 +12,9 @@ export default function FeaturedArticles({authors, featuredPosts}) {
          
           {/* Image */}
           <Link href={`/posts/${featuredPosts[0].slug}`}>
-            <a className="relative z-10 block overflow-hidden bg-gray-100 rounded-2xl aspect-w-16 aspect-h-9 group">
+            <a className="relative z-10 block overflow-hidden bg-gray-100 aspect-w-16 aspect-h-9 group">
               <Image 
-                className="object-cover object-center transition duration-300 ease-in-out rounded-2xl group-hover:scale-110" 
+                className="object-cover object-center transition duration-300 ease-in-out group-hover:scale-110" 
                 src={featuredPosts[0].frontmatter.image} 
                 alt={featuredPosts[0].frontmatter.title}
                 layout="fill"
@@ -90,9 +90,9 @@ export default function FeaturedArticles({authors, featuredPosts}) {
                 {/* Image */}
                 <Link href={`/posts/${post.slug}`}>
                   <a className="order-2 w-full sm:w-2/5 lg:w-full xl:w-2/5 lg:order-1">
-                    <div className="relative z-10 overflow-hidden bg-gray-100 rounded-2xl aspect-w-16 aspect-h-9 group">
+                    <div className="relative z-10 overflow-hidden bg-gray-100 aspect-w-16 aspect-h-9 group">
                       <Image 
-                        className="object-cover object-center transition duration-300 ease-in-out rounded-2xl group-hover:scale-110" 
+                        className="object-cover object-center transition duration-300 ease-in-out group-hover:scale-110" 
                         src={post.frontmatter.image} 
                         alt={post.frontmatter.title}
                         layout="fill"

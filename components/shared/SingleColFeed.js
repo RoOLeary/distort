@@ -12,9 +12,9 @@ export default function SingleColFeed({posts, authors}) {
           {/* Image */}
           <div className="md:col-span-1">
             <Link href={`/posts/${post.slug}`}>
-              <a className="relative z-10 block overflow-hidden rounded-2xl md:aspect-w-1 md:aspect-h-1 aspect-w-16 aspect-h-9 group bg-gray-50">
+              <a className="relative z-10 block overflow-hidden md:aspect-w-1 md:aspect-h-1 aspect-w-16 aspect-h-9 group bg-gray-50">
                 <Image 
-                  className="object-cover object-center transition duration-300 ease-in-out rounded-2xl group-hover:scale-110" 
+                  className="object-cover object-center transition duration-300 ease-in-out group-hover:scale-110" 
                   src={post.frontmatter.image} 
                   alt={post.frontmatter.title}
                   layout="fill"
@@ -51,12 +51,12 @@ export default function SingleColFeed({posts, authors}) {
                 
                 {/* Author Image */}
                 <Link href={`/authors/${post.frontmatter.author.replace(/ /g, '-').toLowerCase()}`}>
-                  <a className="relative mr-3 rounded-lg bg-gray-50 w-7 h-7 lg:w-8 lg:h-8">
+                  <a className="relative mr-3 bg-gray-50 w-7 h-7 lg:w-8 lg:h-8">
                     {authors.map((author) =>
                       post.frontmatter.author === author.frontmatter.name && (
                         <Image
                           key={author.frontmatter.image}
-                          className="flex-shrink-0 object-cover object-center rounded-lg" 
+                          className="flex-shrink-0 object-cover object-center" 
                           src={author.frontmatter.image} 
                           alt={author.frontmatter.name}
                           layout="fill"

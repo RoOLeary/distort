@@ -22,14 +22,14 @@ export default function TwoColFeed({posts, authors}) {
       <div className="grid max-w-xl gap-6 px-4 mx-auto mt-8 sm:px-6 md:px-8 lg:px-0 md:max-w-3xl lg:max-w-none md:grid-cols-2">
         
         {posts.map((post, index) => (
-          <article key={index} className="relative flex flex-col flex-wrap transition duration-300 ease-in-out rounded-2xl group hover:shadow-xl">
+          <article key={index} className="relative flex flex-col flex-wrap transition duration-300 ease-in-out group hover:shadow-xl">
             
             {/* Image */}
-            <div className="relative z-10 w-full overflow-hidden aspect-w-2 aspect-h-1 rounded-t-2xl bg-gray-50">
+            <div className="relative z-10 w-full overflow-hidden aspect-w-2 aspect-h-1 bg-gray-50">
               <Link href={`/posts/${post.slug}`}>
                 <a>
                   <Image 
-                    className="absolute inset-0 object-cover object-center w-full h-full transition duration-300 ease-in-out rounded-t-2xl group-hover:scale-110" 
+                    className="absolute inset-0 object-cover object-center w-full h-full transition duration-300 ease-in-out group-hover:scale-110" 
                     src={post.frontmatter.image} 
                     alt={post.frontmatter.title}
                     layout="fill"

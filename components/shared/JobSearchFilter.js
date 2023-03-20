@@ -145,8 +145,8 @@ const JobSearchFilter = ({ jobs }) => {
         </div>
         <div className="w-full md:w-3/4 px-4">
           <h2 className="text-lg font-bold mb-2">{`${filteredJobs.length} Job${filteredJobs.length > 1 ? `s` : ``} found`}</h2>
-          {filteredJobs.map((job) => (
-            <JobCard key={job.id} job={job} />
+          {filteredJobs.map((job, index) => (
+            <JobCard key={index} job={job} />
           ))}
           
         </div>

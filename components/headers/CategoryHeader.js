@@ -16,14 +16,14 @@ export default function CategoryHeader({category}) {
             
             {/* Image */}
             <div className="flex-shrink-0">
-              <div className="relative w-[100px] h-[100px] bg-gray-100 rounded-2xl">
+              <div className="relative w-[100px] h-[100px] bg-gray-100">
                 <Image 
-                  className="object-cover object-center rounded-2xl" 
+                  className="object-cover object-center" 
                   src={category.image} 
                   alt={category.name}
                   layout="fill"
                 />
-                <span className="absolute inset-0 shadow-inner rounded-2xl" aria-hidden="true" />
+                <span className="absolute inset-0 shadow-inner" aria-hidden="true" />
               </div>
             </div>
 

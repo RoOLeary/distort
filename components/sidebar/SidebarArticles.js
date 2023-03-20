@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function SidebarArticles({header, posts}) {
   return (
-    <div className="w-full p-5 bg-gray-50 sm:p-8 rounded-2xl">
+    <div className="w-full p-5 bg-gray-50 sm:p-8">
       <h3 className="pb-2.5 text-2xl font-medium text-gray-900 border-b border-gray-300/70 relative before:content-[''] before:left-0 before:w-24 before:h-px before:-bottom-px before:bg-red-600 before:absolute">{header}</h3>
 
       {/* Articles */}
@@ -14,9 +14,9 @@ export default function SidebarArticles({header, posts}) {
             
             {/* Image */}
             <Link href={`/posts/${post.slug}`}>
-              <a className="relative z-10 w-24 h-24 overflow-hidden bg-gray-100 rounded-2xl group sm:w-28 sm:h-28 lg:w-20 lg:h-20 xl:w-24 xl:h-24">
+              <a className="relative z-10 w-24 h-24 overflow-hidden bg-gray-100 group sm:w-28 sm:h-28 lg:w-20 lg:h-20 xl:w-24 xl:h-24">
                 <Image 
-                  className="object-cover object-center w-full h-full transition duration-300 ease-in-out rounded-2xl group-hover:scale-110" 
+                  className="object-cover object-center w-full h-full transition duration-300 ease-in-out group-hover:scale-110" 
                   src={post.frontmatter.image} 
                   alt={post.frontmatter.title}
                   layout="fill"
