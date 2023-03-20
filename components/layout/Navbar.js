@@ -48,7 +48,7 @@ export default function Navbar() {
                     <Menu as="div" className="relative" key={index}>
                       {({ open }) => (
                         <>
-                          <Menu.Button
+                          {/* <Menu.Button
                             className={`flex items-center px-3 py-1 font-medium text-md group ${open ? 'text-red-700' : 'text-gray-800 hover:text-red-700 transition duration-300 ease-in-out'}`}
                           >
                             <span>Pages</span>
@@ -56,7 +56,7 @@ export default function Navbar() {
                               className={`w-5 h-5 ml-2 transform duration-300 ${open ? 'rotate-180 text-red-700' : 'text-gray-600 group-hover:text-red-700'}`}
                               aria-hidden="true"
                             />
-                          </Menu.Button>
+                          </Menu.Button> */}
                           
                           
                           <Menu.Items className="z-20 mt-3 absolute w-52 right-0 rounded-xl bg-white filter drop-shadow p-2.5 space-y-1">

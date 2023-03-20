@@ -2,7 +2,7 @@
 title: "Best Password Managers for Secure Online Accounts"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-09.jpeg"
-date: "2022-04-02T16:56:47+06:00"
+date: "2023-04-02T16:56:47+06:00"
 author: "Matt Burgess"
 time_to_read_in_minutes: 5
 views: 215

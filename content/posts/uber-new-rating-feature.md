@@ -2,7 +2,7 @@
 title: "Uber's New Rating Feature"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/featured-07.jpeg"
-date: "2022-04-11T16:56:47+06:00"
+date: "2023-04-11T16:56:47+06:00"
 author: "Veronica Mars"
 time_to_read_in_minutes: 5
 views: 753

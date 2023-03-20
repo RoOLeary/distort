@@ -2,7 +2,7 @@
 title: "How the Unheeded Rules of Urban Planning Create Stress in Cities"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-07.jpeg"
-date: "2022-03-29T16:56:47+06:00"
+date: "2023-03-29T16:56:47+06:00"
 author: "Tayler Adams"
 time_to_read_in_minutes: 14
 views: 7000

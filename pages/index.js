@@ -46,7 +46,7 @@ const jobs = [
     category: 'Tech',
     location: "Utrect",
     type: "part-time",
-    title: 'Bellend'
+    title: 'Developer'
   },
   {
     category: 'Operational',

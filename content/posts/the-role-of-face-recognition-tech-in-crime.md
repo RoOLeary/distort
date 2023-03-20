@@ -2,7 +2,7 @@
 title: "The Scary Way Facial Recognition is Being Used"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-28.jpeg"
-date: "2022-02-05T16:56:47+06:00"
+date: "2023-02-05T16:56:47+06:00"
 author: "Karina Bell"
 time_to_read_in_minutes: 7
 views: 8185

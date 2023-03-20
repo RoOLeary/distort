@@ -2,7 +2,7 @@
 title: "How to Combat Extreme Heat Waves in Cities"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-22.jpeg"
-date: "2022-02-25T16:56:47+06:00"
+date: "2023-02-25T16:56:47+06:00"
 author: "Taylor Adams"
 time_to_read_in_minutes: 11
 views: 1849

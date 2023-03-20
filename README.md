@@ -68,7 +68,7 @@ export default {
   "logoText" : "Banter",
   "favicon" : "/images/banter-icon-logo.png",
   "postPerPage" : 6,
-  "copyright" : "© 2022 Banter. All rights reserved."
+  "copyright" : "© 2023 Banter. All rights reserved."
 }
 ```
 
@@ -143,7 +143,7 @@ All of the posts are located in the `content/posts` directory. All of the posts 
 title: "15 Ways to Grow Your Startup"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-02.jpeg"
-date: "2022-04-05T16:56:47+06:00"
+date: "2023-04-05T16:56:47+06:00"
 author: "Matt Burgess"
 time_to_read_in_minutes: 12
 views: 6807

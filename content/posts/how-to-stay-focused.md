@@ -2,7 +2,7 @@
 title: "How to Stay Focused in the Digital Age"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-03.jpeg"
-date: "2022-03-30T16:56:47+06:00"
+date: "2023-03-30T16:56:47+06:00"
 author: "Amit Katwala"
 time_to_read_in_minutes: 4
 views: 1878

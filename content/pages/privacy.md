@@ -3,7 +3,7 @@ title: "Privacy"
 description: "Privacy & policy"
 header:
   heading: "Privacy Policy"
-  text: "Last updated on March 10, 2022"
+  text: "Last updated on March 10, 2023"
 ---
 My Website one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by My Website and how we use it.
 

@@ -2,7 +2,7 @@
 title: "How to Iterate Faster and Work Less"
 description: "Lorem ipsum dolor sit amet tempus bendum labore laoreet.Hendrerit lobortis a leo curabitur faucibus sapien ullamcorper do labore odio."
 image: "/images/posts/archive-05.jpeg"
-date: "2022-03-20T16:56:47+06:00"
+date: "2023-03-20T16:56:47+06:00"
 author: "Karina Bell"
 time_to_read_in_minutes: 9
 views: 3470
