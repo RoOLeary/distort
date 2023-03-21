@@ -7,7 +7,7 @@ export default {
     "ogImage" : "/images/ogimage.jpg"
   },
   "baseURL" : "https://busylittlepixels.com/",
-  "logo" : "/favicon.ico",
+  "logo" : "/images/banter-icon-logo.png",
   "logoText" : "BLP",
   "favicon" : "/favicon.ico",
   "postPerPage" : 6,

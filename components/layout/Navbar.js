@@ -28,7 +28,7 @@ export default function Navbar() {
                 <Link href="/">
                   <a className="lg:hidden h-9">
                     <Image 
-                      src={siteConfig.favicon} 
+                      src={siteConfig.logo} 
                       alt={siteConfig.logoText}
                       width={36}
                       height={36}
