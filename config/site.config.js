@@ -1,7 +1,7 @@
 export default {
   "metaData": {
     "title" : "Busy Little Pixels | Blog",
-    "description" : "Busy Little Pixels Media - prototype news site - Craft/Next.",
+    "description" : "Busy Little Pixels - prototype news site - Craft/NextJSs.",
     "author" : "Ro O'Leary",
     "keyword" : "magazine, react, nextjs, media, computers and shit",
     "ogImage" : "/images/ogimage.jpg"

@@ -1,5 +1,5 @@
 ---
-name: "Eliot Rosewater"
+name: "Danger Ro"
 image: "https://placedog.net/96/96"
 role: "Staff Writer"
 social_links:
