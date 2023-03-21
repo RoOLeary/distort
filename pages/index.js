@@ -242,8 +242,8 @@ export default function Home({
 
       
       <Newsletter newsletter={newsletter} />
-      <TestimonialSlider testimonials={testimonials} />
-      <JobSearchFilter jobs={jobs} />
+      {/* <TestimonialSlider testimonials={testimonials} />
+      <JobSearchFilter jobs={jobs} /> */}
     </Layout>
   )
 }
