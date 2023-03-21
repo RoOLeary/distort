@@ -1,10 +1,10 @@
 ---
 name: "Danger Ro"
 image: "https://placedog.net/96/96"
-role: "Staff Writer"
+role: "CTO and word-talker"
 social_links:
   - name: "twitter"
-    url: "#"
+    url: "/roleary"
   - name: "facebook"
     url: "#"
   - name: "instagram"
