@@ -175,12 +175,6 @@ Tailwind allows you to customize what it generates using the `tailwind.config.js
 ## Font
 This template uses the `Roboto` Font family from the [Google Fonts Library](https://fonts.google.com/specimen/Roboto). The font is included in `/pages/_document.js` and leverages the [Automatic Webfont Optimizations](https://nextjs.org/docs/basic-features/font-optimization) by next.js.
 
-## Icons
-The icons used for this theme are part of the [Hero Icons](https://heroicons.com/) set that is free to use and published under the [MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE). 
-  
-Some of the examples in Banter use [Nucleo App](https://nucleoapp.com/premium-icons) icons which we have acquired a license for. You are free to use the Nucleo icons included in this template on your projects, but if you are interested in using the rest of their premium icons you can buy a license on their [website](https://nucleoapp.com/).
-
-
 ## Images
 
 All of the images for posts, categories, authors and website components are from [Unsplash](https://unsplash.com/).
