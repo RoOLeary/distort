@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { getSocialIconComponent } from '../../utils/getSocialIconComponent'
 
 export default function Team({teamSection, authors}) {
+
+  const filteredAuthors = authors.filter(author => author.frontmatter.name !== 'Nikki Sixx');
+
+
   return (
     <section className="py-12 sm:py-20 lg:py-28 bg-gray-50">
       <div className="max-w-xl px-4 mx-auto sm:max-w-3xl sm:px-6 md:px-8 lg:max-w-screen-xl">
@@ -18,7 +22,7 @@ export default function Team({teamSection, authors}) {
         <div className="max-w-screen-xl mx-auto mt-12 sm:mt-16">
           <ul className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:gap-8 lg:grid-cols-3">
             
-            {authors.map((author) => (
+            {filteredAuthors.map((author) => (
               <li className="relative px-6 py-10 text-center transition duration-300 ease-in-out bg-transparent border border-gray-300/70 rounded-3xl sm:px-10 hover:shadow-lg hover:border-gray-300/30" key={author.frontmatter.name}>
                 <div>
                   <div className="relative w-40 h-40 mx-auto bg-gray-100 rounded-full xl:w-44 xl:h-44">

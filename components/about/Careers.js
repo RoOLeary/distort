@@ -28,7 +28,7 @@ export default function Careers({careers}) {
             
             {careers.locations.map((location) => (
               <li key={location.name} className="flex">
-                <div className="flex items-center justify-center text-gray-600 rounded-lg w-14 h-14 sm:w-16 sm:h-16 shrink-0 bg-gray-50">
+                {/* <div className="flex items-center justify-center text-gray-600 rounded-lg w-14 h-14 sm:w-16 sm:h-16 shrink-0 bg-gray-50">
                   
                   <img
                     src={location.icon}
@@ -36,7 +36,7 @@ export default function Careers({careers}) {
                     className="w-6 h-6 opacity-70 sm:w-7 sm:h-7"
                   />
                   
-                </div>
+                </div> */}
                 
                 <div className="w-full ml-3.5 sm:ml-6">
                   <p className="text-lg font-medium leading-6 text-gray-900">{location.name}</p>

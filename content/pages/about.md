@@ -3,7 +3,7 @@ title: "About"
 description: "This is a mock description for about page"
 header:
   heading:  "Illuminating today's stories on culture, business, and science through great journalism."
-  subheader: "About Busy Little Pixels"
+  subheader: "About Busy Little Pixels | Blog"
   image: "/images/about/about-header.jpeg"
 partner_section:
   heading: "Our Syndication Partners"
@@ -37,15 +37,12 @@ careers:
     text: "Join our team"
     href: "#"
   locations:
+    - name: "Amsterdam"
+      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque iste dolor."
+    - name: "Dublin"
+      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque iste dolor."
     - name: "London"
       text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque iste dolor."
-      icon: "/images/about/locations/london.svg"
-    - name: "New York"
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque iste dolor."
-      icon: "/images/about/locations/new-york.svg"
-    - name: "San Francisco"
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque iste dolor."
-      icon: "/images/about/locations/san-francisco.svg"
 ---
 Quam venenatis gravida et urna molestie leo adipiscing dolore leo euismod quam. Aenean porta curabitur convallis pellentesque velit platea at neque phasellus. Aliquet pellentesque senectus velit magna ultrices iaculis justo habitasse vitae neque ornare nullam leo. Est facilisis mauris purus senectus nunc convallis praesent pharetra dictum dui molestie iaculis.
 

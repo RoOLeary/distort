@@ -1,7 +1,7 @@
 ---
-name: "Ernie Catwalker"
+name: "Paddy Ryan"
 image: "https://placedog.net/96/96/r"
-role: "Staff Writer"
+role: "COO/Editor"
 social_links:
   - name: "twitter"
     url: "#"

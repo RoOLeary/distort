@@ -165,7 +165,7 @@ Tailwind CSS and its dependencies were installed via npm as recommended by the o
 
 You can find the `tailwind.config.js` and `postcss.config.js` files at the root of the directory. The entry point CSS file is located at `styles/globals.css`. This file contains the `@tailwind` directives and any additional CSS used in the template. Have tried to minimize custom CSS and only define a few custom classes for the hamburger menu in the navbar.
 
-Tailwind allows you to customize what it generates using the `tailwind.config.js` file at the root of the project directory. For this theme, I defined a few extra utility classes. Have also added the paths to all of our template files to the `content` option to tree-shake unused styles and optimize your final build size. This template additionally uses 2 official Tailwind plugins (`@tailwindcss/aspect-ratio`, `@tailwindcss/typography`) to generate additional utility classes.
+Tailwind allows you to customize what it generates using the `tailwind.config.js` file at the root of the project directory. For this theme, I defined a few extra utility classes. Have also added the paths to all of the template files to the `content` option to tree-shake unused styles and optimize your final build size. This template additionally uses 2 official Tailwind plugins (`@tailwindcss/aspect-ratio`, `@tailwindcss/typography`) to generate additional utility classes.
 
 ## Font
 This template uses the `Roboto` Font family from the [Google Fonts Library](https://fonts.google.com/specimen/Roboto). The font is included in `/pages/_document.js` and leverages the [Automatic Webfont Optimizations](https://nextjs.org/docs/basic-features/font-optimization) by next.js.
