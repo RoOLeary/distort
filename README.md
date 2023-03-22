@@ -59,9 +59,9 @@ export default {
     "ogImage" : "/images/ogimage.jpg"
   },
   "baseURL" : "https://blpmedia.vercel.app/",
-  "logo" : "/images/banter-logo.png",
+  "logo" : "/images/blp-logo.png",
   "logoText" : "BLP Media",
-  "favicon" : "/images/banter-icon-logo.png",
+  "favicon" : "/images/blp-icon-logo.png",
   "postPerPage" : 8,
   "copyright" : "© 2023 Busy Little Pixels. All rights reserved."
 }
@@ -184,23 +184,3 @@ Some of the examples in Banter use [Nucleo App](https://nucleoapp.com/premium-ic
 ## Images
 
 All of the images for posts, categories, authors and website components are from [Unsplash](https://unsplash.com/).
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out their [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Additional Help
-
-If you need additional help setting up the template or have any questions, feel free to contact us at <rodrigo@tailwindawesome.com>.# blpmedia
