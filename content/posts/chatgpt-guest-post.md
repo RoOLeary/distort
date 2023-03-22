@@ -7,7 +7,7 @@ author: "Danger Ro"
 time_to_read_in_minutes: 9
 views: 1150
 category: "Technology"
-tags: ["Policy", "Environment", "Energy", "Renewables"]
+tags: ["Policy", "Environment", "Technology"]
 group: "Featured"
 ---
 
