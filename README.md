@@ -1,13 +1,8 @@
-## System Requirements
-* [Node.js 12.22.0](https://nodejs.org/) or later
-* MacOS, Windows (including WSL), and Linux are supported
-
 ## Getting Started
+
 First, install the dependencies by navigating to the project directory in your terminal and run
 ```bash
 npm install
-# or
-yarn install  # if you have Yarn installed
 ```
 This will install all the required dependencies and place them in a folder called `node_modules` in the root directory.
 
@@ -97,20 +92,20 @@ export default [
 However, if you add a social media link make sure to add its corresponding icon in the `components/social` directory.
 
 ## Content
-All of the content data is in markdown format. If you are not familiar with markdown, you can take a look at this excellent [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) that provides a quick overview of all the Markdown syntax elements.
+All of the content data is in markdown format. If you are not familiar with markdown, you should be ashamed. Nah, you can take a look at this pretty excellent [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) that provides a quick overview of all the Markdown syntax elements.
 
 ### Content Structure
 All of the markdown files are located in the `content` directory. Project uses [`gray-matter`](https://github.com/jonschlinkert/gray-matter) to parse our YAML front matter and markdown content. All of the frontmatter data for each content file is located at the top of the file in between 3 hyphens. Below the frontmatter is the markdown content. 
 
 ### Adding new authors
-You can add new or customize existing authors in the `content/authors` directory. Each author's file name is the slug for that particular author's page. For example, the author Isabel Vaz has a corresponding markdown file named `mark-jack.md` and an author page at `/authors/mark-jack`.
+You can add new or customize existing authors in the `content/authors` directory. Each author's file name is the slug for that particular author's page. For example, the author Isabel Vaz has a corresponding markdown file named `isabel-vaz.md` and an author page at `/authors/isabel-vaz`.
 
 Every author has data in the following format:
 
 ```markdown
 ---
 name: "Isabel Vaz"
-image: "/images/authors/mark-jack.jpeg"
+image: "/images/authors/isabel-vaz.jpeg"
 role: "Staff Writer"
 social_links:
   - name: "twitter"
@@ -164,17 +159,16 @@ You can edit the newsletter section content and form data in the `content/shared
 
 ## Tailwind CSS
 
-This theme uses the latest version of Tailwind CSS: v3.
+This project uses the latest version of Tailwind CSS: v3.
 
 Tailwind CSS and its dependencies were installed via npm as recommended by the official [Tailwind installation docs for next.js](https://tailwindcss.com/docs/guides/nextjs). If you are not familiar with the Tailwind CSS framework I would recommend you check out the [Tailwind documentation](https://tailwindcss.com/docs). 
 
-You can find the `tailwind.config.js` and `postcss.config.js` files at the root of the directory. The entry point CSS file is located at `styles/globals.css`. This file contains the `@tailwind` directives and any additional CSS used in the template. We've tried to minimize custom CSS and only define a few custom classes for the hamburger menu in the navbar.
+You can find the `tailwind.config.js` and `postcss.config.js` files at the root of the directory. The entry point CSS file is located at `styles/globals.css`. This file contains the `@tailwind` directives and any additional CSS used in the template. Have tried to minimize custom CSS and only define a few custom classes for the hamburger menu in the navbar.
 
-Tailwind allows you to customize what it generates using the `tailwind.config.js` file at the root of the project directory. For this theme, we have defined a few extra utility classes. We have also added the paths to all of our template files to the `content` option to tree-shake unused styles and optimize your final build size. This template additionally uses 2 official Tailwind plugins (`@tailwindcss/aspect-ratio`, `@tailwindcss/typography`) to generate additional utility classes.
+Tailwind allows you to customize what it generates using the `tailwind.config.js` file at the root of the project directory. For this theme, I defined a few extra utility classes. Have also added the paths to all of our template files to the `content` option to tree-shake unused styles and optimize your final build size. This template additionally uses 2 official Tailwind plugins (`@tailwindcss/aspect-ratio`, `@tailwindcss/typography`) to generate additional utility classes.
 
 ## Font
 This template uses the `Roboto` Font family from the [Google Fonts Library](https://fonts.google.com/specimen/Roboto). The font is included in `/pages/_document.js` and leverages the [Automatic Webfont Optimizations](https://nextjs.org/docs/basic-features/font-optimization) by next.js.
 
 ## Images
-
 All of the images for posts, categories, authors and website components are from [Unsplash](https://unsplash.com/).
