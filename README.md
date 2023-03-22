@@ -100,7 +100,7 @@ However, if you add a social media link make sure to add its corresponding icon 
 All of the content data is in markdown format. If you are not familiar with markdown, you can take a look at this excellent [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) that provides a quick overview of all the Markdown syntax elements.
 
 ### Content Structure
-All of the markdown files are located in the `content` directory. Banter uses [`gray-matter`](https://github.com/jonschlinkert/gray-matter) to parse our YAML front matter and markdown content. All of the frontmatter data for each content file is located at the top of the file in between 3 hyphens. Below the frontmatter is the markdown content. 
+All of the markdown files are located in the `content` directory. Project uses [`gray-matter`](https://github.com/jonschlinkert/gray-matter) to parse our YAML front matter and markdown content. All of the frontmatter data for each content file is located at the top of the file in between 3 hyphens. Below the frontmatter is the markdown content. 
 
 ### Adding new authors
 You can add new or customize existing authors in the `content/authors` directory. Each author's file name is the slug for that particular author's page. For example, the author Isabel Vaz has a corresponding markdown file named `mark-jack.md` and an author page at `/authors/mark-jack`.
