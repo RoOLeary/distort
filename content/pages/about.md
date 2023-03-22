@@ -2,7 +2,7 @@
 title: "About"
 description: "This is a mock description for about page"
 header:
-  heading:  "Illuminating today's stories on culture, business, and science through great journalism."
+  heading:  "We illuminating today's stories on culture, tech, business, and science through great journalism and a thirst for notoriety."
   subheader: "About Busy Little Pixels | Blog"
   image: "/images/about/about-header.jpeg"
 partner_section:

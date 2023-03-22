@@ -58,6 +58,10 @@ export default {
       "link": "/"
     },
     {
+      "name": "About",
+      "link": "/about"
+    },
+    {
       "name": "Privacy policy",
       "link": "/privacy"
     },
