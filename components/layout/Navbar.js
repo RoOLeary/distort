@@ -26,7 +26,7 @@ export default function Navbar() {
               {/* Logo */}
               <div className="flex items-center shrink-0">
                 <Link href="/">
-                  <a className="lg:hidden h-9">
+                  <a className="lg:hidden h-9 text-white">
                     DISTORT
                   </a>
                 </Link>
