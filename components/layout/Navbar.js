@@ -15,10 +15,10 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <Disclosure as="header" className="relative bg-transparent border-b border-gray-300/60">
+    <Disclosure as="header" className="relative bg-black border-b border-gray-300/60">
       {({ open }) => (
         <>
-          <nav className="flex items-center h-20 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <nav className="flex items-center h-20 px-4 mx-auto w-full sm:px-6 lg:px-8">
             
             {/* Main navbar for large screens */}
             <div className="flex items-center justify-between w-full">
@@ -27,19 +27,12 @@ export default function Navbar() {
               <div className="flex items-center shrink-0">
                 <Link href="/">
                   <a className="lg:hidden h-9">
-                    <Image 
-                      src={siteConfig.logo} 
-                      alt={siteConfig.logoText}
-                      width={36}
-                      height={36}
-                      layout="fixed"
-                      className="w-9 h-9"
-                    />
+                    DISTORT
                   </a>
                 </Link>
                 <Link href="/">
-                  <a className="hidden lg:block h-9 font-black inter text-2xl">
-                  busy<span style={{ color: 'red', fontWeight: 'bold'}}>little</span>pixels:blog
+                  <a className="hidden lg:block h-9 font-black inter text-2xl text-white">
+                  DISTORT
                   </a>
                 </Link>
               </div>
@@ -53,7 +46,7 @@ export default function Navbar() {
                       {({ open }) => (
                         <>
                           {/* <Menu.Button
-                            className={`flex items-center px-3 py-1 font-medium text-md group ${open ? 'text-red-700' : 'text-gray-800 hover:text-red-700 transition duration-300 ease-in-out'}`}
+                            className={`flex items-center px-3 py-1 font-medium text-md group ${open ? 'text-red-700' : 'text-white hover:text-red-700 transition duration-300 ease-in-out'}`}
                           >
                             <span>Pages</span>
                             <ChevronDownIcon
@@ -63,12 +56,12 @@ export default function Navbar() {
                           </Menu.Button> */}
                           
                           
-                          <Menu.Items className="z-20 mt-3 absolute w-52 right-0 rounded-xl bg-white filter drop-shadow p-2.5 space-y-1">
+                          <Menu.Items className="z-20 mt-3 absolute w-52 right-0 rounded-xl bg-black filter drop-shadow p-2.5 space-y-1">
                             {link.submenu.map((subLink, i) => (
                               <Menu.Item key={i}>
                                 <Link href={subLink.link}>
                                   <a 
-                                    className={`block rounded-lg py-3.5 px-5 font-medium ${router.pathname == subLink.link ? 'bg-gray-50 text-red-700' : 'text-gray-800 hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
+                                    className={`block rounded-lg py-3.5 px-5 font-medium ${router.pathname == subLink.link ? 'bg-gray-50 text-red-700' : 'text-white hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
                                   >
                                     {subLink.name}
                                   </a>
@@ -83,7 +76,7 @@ export default function Navbar() {
                     
                   ) : (
                     <Link key={index} href={link.link}>
-                      <a className={`px-3 py-1 font-medium text-md ${router.pathname == link.link ? 'text-red-700' : 'text-gray-800 transition duration-300 ease-in-out hover:text-red-700'}`}>
+                      <a className={`px-3 py-1 font-medium text-md ${router.pathname == link.link ? 'text-red-700' : 'text-white transition duration-300 ease-in-out hover:text-red-700'}`}>
                         {link.name}
                       </a>
                     </Link>
@@ -100,7 +93,7 @@ export default function Navbar() {
                   </div>
                   <input 
                     type="email" 
-                    className="w-full h-10 px-10 py-3 text-sm leading-5 text-gray-800 transition duration-300 ease-in-out bg-white border border-gray-200 hover:bg-gray-50 rounded-3xl focus:outline-none focus:ring-2 focus:ring-red-100 focus:bg-gray-50" 
+                    className="w-full h-10 px-10 py-3 text-sm leading-5 text-white transition duration-300 ease-in-out bg-white border border-gray-200 hover:bg-gray-50 rounded-3xl focus:outline-none focus:ring-2 focus:ring-red-100 focus:bg-gray-50" 
                     required 
                     placeholder="Search..."  
                     autoComplete="email" 
@@ -131,7 +124,7 @@ export default function Navbar() {
                   !link.submenu && (
                     <Link href={link.link} key={i}>
                       <a 
-                        className={`block px-4 py-3 font-medium rounded-lg ${router.pathname == link.link ? 'bg-gray-50 text-red-700' : 'text-gray-800 hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
+                        className={`block px-4 py-3 font-medium rounded-lg ${router.pathname == link.link ? 'bg-gray-50 text-red-700' : 'text-white hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
                         aria-current="page"
                       >
                         {link.name}

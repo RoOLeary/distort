@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex items-center justify-center">
             <Link href="/">
               <a className="hidden lg:block h-9 font-black inter text-2xl">
-              busy<span style={{ color: 'red', fontWeight: 'bold'}}>little</span>pixels:blog
+              DISTORT
               </a>
             </Link>
           </div>

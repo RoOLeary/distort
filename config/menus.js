@@ -1,19 +1,31 @@
 export default {
   "mainMenu": [
     {
-      "name": "Technology",
-      "link": "/categories/technology"
+      "name": "ARTIFICIAL INTELLIGENCE",
+      "link": "/categories/artificial-intelligence"
     },
     {
-      "name": "Startups",
-      "link": "/categories/startups"
+      "name": "ENTERTAINMENT",
+      "link": "/categories/entertainment"
     },
     {
-      "name": "Science",
-      "link": "/categories/science"
+      "name": "GAMING & VR",
+      "link": "/categories/gaming-and-vr"
     },
     {
-      "name": "Culture",
+      "name": "MOBILE",
+      "link": "/categories/culture"
+    },
+    {
+      "name": "SOCIAL MEDIA",
+      "link": "/categories/culture"
+    },
+    {
+      "name": "SECURITY & PRIVACY",
+      "link": "/categories/culture"
+    },
+    {
+      "name": "WEARABLES",
       "link": "/categories/culture"
     },
     {
