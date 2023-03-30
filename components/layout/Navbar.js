@@ -86,7 +86,7 @@ export default function Navbar() {
               </div>
 
               {/* Search */}
-              <div className="relative w-full h-10 ml-6 max-w-xxs rounded-3xl">
+              {/* <div className="relative w-full h-10 ml-6 max-w-xxs rounded-3xl">
                 <form className="transition duration-300 ease-in-out rounded-3xl group">
                   <div className="absolute inset-y-0 flex items-center left-3">
                     <SearchIcon className="w-5 h-5 text-gray-400" />
@@ -99,7 +99,7 @@ export default function Navbar() {
                     autoComplete="email" 
                   />
                 </form>
-              </div>
+              </div> */}
 
               {/* Hamburger menu button */}
               <Disclosure.Button className="flex items-center justify-center p-3 ml-6 transition duration-300 ease-in-out cursor-pointer rounded-xl bg-gray-50 hover:bg-gray-100 md:hidden group focus:outline-none">
