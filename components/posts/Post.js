@@ -10,13 +10,13 @@ export default function Post({post, postContent, authors}) {
   let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, '/')}posts/${post.slug}`
   
   return (
-    <article className="pb-12 sm:pb-16 lg:pb-24 bg-gray-50">
+    <article className="pb-12 sm:pb-16 lg:pb-24 bg-black">
       
       {/* Post Header */}
       <header>
        
         {/* Image */}
-        <div className="w-full bg-gray-100 aspect-w-3 aspect-h-2 sm:aspect-h-1">
+        <div className="w-full bg-black aspect-w-3 aspect-h-2 sm:aspect-h-1">
           <Image 
             className="object-cover object-center" 
             src={post.image} 
@@ -31,12 +31,12 @@ export default function Post({post, postContent, authors}) {
           {/* Article Information */}
           <div className="pt-10 pb-8 mx-auto mb-8 text-lg border-b max-w-prose border-gray-300/70 sm:pt-16">
             <Link href={`/categories/${post.category.replace(/ /g, '-').toLowerCase()}`}>
-              <a className="relative text-sm font-medium tracking-widest text-red-700 uppercase duration-300 ease-in-out transition-color hover:text-red-600">{post.category}</a>
+              <a className="relative text-sm font-medium tracking-widest text-teal uppercase duration-300 ease-in-out transition-color hover:text-red-600">{post.category}</a>
             </Link>
-            <h2 className="mt-3.5 text-4xl font-medium tracking-normal text-gray-900 transition duration-300 ease-in-out sm:mt-5 decoration-red-300 decoration-3 group-hover:underline md:tracking-tight sm:leading-tight sm:text-5xl lg:text-6xl">{post.title}
+            <h2 className="mt-3.5 text-4xl font-medium tracking-normal text-teal transition duration-300 ease-in-out sm:mt-5 decoration-red-300 decoration-3 group-hover:underline md:tracking-tight sm:leading-tight sm:text-5xl lg:text-6xl">{post.title}
             </h2>
             <div>
-              <p className="mt-4 text-base leading-loose text-gray-600">
+              <p className="mt-4 text-base leading-loose text-white">
                 {post.description}
               </p>
             </div>
@@ -62,17 +62,17 @@ export default function Post({post, postContent, authors}) {
                 </a>
               </Link>
               <div className="text-sm lg:text-[15px] flex items-center">
-                <span className="hidden text-gray-500 sm:inline-block">By&nbsp;</span>
+                <span className="hidden text-white sm:inline-block">By&nbsp;</span>
                 <Link href={`/authors/${post.author.replace(/ /g, '-').toLowerCase()}`}>
                   <a className="font-medium text-gray-700 hover:underline">
                     {post.author}
                   </a>
                 </Link>
                 <CalendarIcon className="w-[18px] h-[18px] ml-4 text-gray-400" />
-                <span className="ml-1 text-gray-500">{formatDate(post.date)}</span>
+                <span className="ml-1 text-white">{formatDate(post.date)}</span>
                 <span className="items-center hidden sm:flex">
                   <ClockIcon className="w-[18px] h-[18px] ml-3 text-gray-400" />
-                  <span className="ml-1 text-gray-500">{post.time_to_read_in_minutes} min read</span>
+                  <span className="ml-1 text-white">{post.time_to_read_in_minutes} min read</span>
                 </span>
               </div>
             </div>
@@ -87,11 +87,11 @@ export default function Post({post, postContent, authors}) {
         
         {/* Post Content */}
         {/* Uses the official Tailwind CSS Typography plugin */}
-        <div className="mx-auto prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition  first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em]" dangerouslySetInnerHTML={{ __html: marked.parse(postContent) }}>
+        <div className="mx-auto prose sm:prose-lg hover:prose-a:text-red-700 prose-a:duration-300 prose-a:ease-in-out prose-a:transition  first-letter:text-4xl first-letter:font-bold first-letter:tracking-[.15em] text-white" dangerouslySetInnerHTML={{ __html: marked.parse(postContent) }}>
         </div>
 
         {/* Post Footer */}
-        <footer className="mx-auto mt-12 text-lg divide-y sm:mt-14 max-w-prose divide-y-gray-300/70">
+        <footer className="mx-auto mt-12 text-lg divide-y sm:mt-14 max-w-prose divide-y-gray-300/70 text-white">
          
           {/* Tags */}
           <ul className="flex flex-wrap justify-start pb-8 -m-1 sm:pb-10">
@@ -197,7 +197,7 @@ export default function Post({post, postContent, authors}) {
                           </h1>
                         </div>
                       </div>
-                      <div className="mt-2.5 text-base leading-loose text-gray-500" dangerouslySetInnerHTML={{ __html: marked.parse(author.bio) }}>
+                      <div className="mt-2.5 text-base leading-loose text-white" dangerouslySetInnerHTML={{ __html: marked.parse(author.bio) }}>
                       </div>
                       
                       {/* Author Social Links */}
@@ -209,7 +209,7 @@ export default function Post({post, postContent, authors}) {
                               { getSocialIconComponent({
                                 name: socialLink.name, 
                                 props: { 
-                                  className: "w-5 h-5 text-gray-400 transition duration-300 ease-in-out group-hover:text-gray-600" 
+                                  className: "w-5 h-5 text-gray-400 transition duration-300 ease-in-out group-hover:text-white" 
                                 }
                               }) }
                             </a>

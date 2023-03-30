@@ -1,3 +1,5 @@
+const { teal } = require('@tailwindcss/typography/src/styles');
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -14,6 +16,10 @@ module.exports = {
         "md": "1.063rem",
         "5xl": "2.65rem",
         "6xl": "2.75rem",
+      },
+
+      textColor:{
+        teal: '#008080'
       },
 
       maxWidth: {

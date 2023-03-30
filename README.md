@@ -47,13 +47,13 @@ The `config/site.config.js` file contains default site data used across the site
 ```javascript
 export default {
   "metaData": {
-    "title" : "BLP Media | NextJS /Craft Media Template",
-    "description" : "BLP Media - a modern, stylish magazine, or news site.",
+    "title" : "Distort | NextJS Media Template",
+    "description" : "Distort - a modern news site.",
     "author" : "Ro O'Leary",
     "keyword" : "magazine, react, nextjs, tech blog",
     "ogImage" : "/images/ogimage.jpg"
   },
-  "baseURL" : "https://blpmedia.vercel.app/",
+  "baseURL" : "https://distort-um2h.vercel.app/",
   "logo" : "/images/blp-logo.png",
   "logoText" : "BLP Media",
   "favicon" : "/images/blp-icon-logo.png",

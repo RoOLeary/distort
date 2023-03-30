@@ -26,12 +26,12 @@ export default function Navbar() {
               {/* Logo */}
               <div className="flex items-center shrink-0">
                 <Link href="/">
-                  <a className="lg:hidden h-9 text-white">
+                  <a className="lg:hidden h-9 text-teal">
                     DISTORT
                   </a>
                 </Link>
                 <Link href="/">
-                  <a className="hidden lg:block h-9 font-black inter text-2xl text-white">
+                  <a className="hidden lg:block h-9 font-black inter text-2xl text-teal">
                   DISTORT
                   </a>
                 </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
                               <Menu.Item key={i}>
                                 <Link href={subLink.link}>
                                   <a 
-                                    className={`block rounded-lg py-3.5 px-5 font-medium ${router.pathname == subLink.link ? 'bg-gray-50 text-red-700' : 'text-white hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
+                                    className={`block rounded-lg py-3.5 px-5 font-medium ${router.pathname == subLink.link ? 'bg-gray-50 text-white' : 'text-teal hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
                                   >
                                     {subLink.name}
                                   </a>
@@ -76,7 +76,7 @@ export default function Navbar() {
                     
                   ) : (
                     <Link key={index} href={link.link}>
-                      <a className={`px-3 py-1 font-medium text-md ${router.pathname == link.link ? 'text-red-700' : 'text-white transition duration-300 ease-in-out hover:text-red-700'}`}>
+                      <a className={`px-3 py-1 font-medium text-md ${router.pathname == link.link ? 'text-white' : 'text-teal transition duration-300 ease-in-out hover:text-red-700'}`}>
                         {link.name}
                       </a>
                     </Link>
@@ -124,7 +124,7 @@ export default function Navbar() {
                   !link.submenu && (
                     <Link href={link.link} key={i}>
                       <a 
-                        className={`block px-4 py-3 font-medium rounded-lg ${router.pathname == link.link ? 'bg-gray-50 text-red-700' : 'text-white hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
+                        className={`block px-4 py-3 font-medium rounded-lg ${router.pathname == link.link ? 'bg-gray-50 text-red-700' : 'text-teal hover:bg-gray-50 hover:text-red-700 transition duration-300 ease-in-out'}`}
                         aria-current="page"
                       >
                         {link.name}
